@@ -14,6 +14,12 @@ dependencies = []
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
 git-mcp = ["mcp>=1.0", "mcp-server-git>=2025.7.1"]
+bigquery = ["google-cloud-bigquery>=3.27.0"]
+bigquery-mcp = [
+    "mcp>=1.0",
+    "mcp-server-bigquery>=0.3.2",
+    "google-cloud-bigquery>=3.27.0",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/pegaso"]
