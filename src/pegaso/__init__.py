@@ -3,6 +3,7 @@
 from pegaso.core.capability import Capability
 from pegaso.core.descriptor import CapabilityDescriptor, OperationDescriptor
 from pegaso.core.registry import CapabilityRegistry
+from pegaso.capabilities.git import LocalGitCapability
 from pegaso.capabilities.local_files import LocalFilesCapability
 
 __all__ = [
@@ -10,6 +11,7 @@ __all__ = [
     "CapabilityDescriptor",
     "CapabilityRegistry",
     "LocalFilesCapability",
+    "LocalGitCapability",
     "OperationDescriptor",
 ]
 
