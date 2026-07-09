@@ -16,6 +16,11 @@ pip install -e ".[dev]"
 pytest
 ```
 
+## Tutorial
+
+See [docs/TUTORIAL.md](docs/TUTORIAL.md) for a guide on using PEGASO with
+Google ADK, including the `examples/adk_file_assistant/` sample agent.
+
 ## Package layout
 
 ```

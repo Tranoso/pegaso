@@ -13,6 +13,7 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+adk = ["google-adk>=1.0.0"]
 git-mcp = ["mcp>=1.0", "mcp-server-git>=2025.7.1"]
 bigquery = ["google-cloud-bigquery>=3.27.0"]
 bigquery-mcp = [
