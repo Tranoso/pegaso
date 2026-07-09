@@ -146,3 +146,10 @@ Capabilities should be portable.
 Consumers should depend on contracts.
 
 Implementations should be free to evolve.
+
+---
+
+# Tutorial
+
+See [docs/TUTORIAL.md](docs/TUTORIAL.md) for a hands-on guide covering PEGASO
+basics and building a Google ADK agent with PEGASO capabilities.
